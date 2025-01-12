@@ -12,8 +12,6 @@ This repository contains a collection of Bash scripts for automating various tas
 
 ## OpenAI API
 
----
-
 ## Overview
 
 ### **`openai-api/linux-assistant.sh`**
@@ -49,8 +47,6 @@ This script allows users to interact with an AI-powered Linux assistant that can
 
 
 ## System
-
----
 
 ## Overview
 
