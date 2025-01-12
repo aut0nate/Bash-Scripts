@@ -7,9 +7,9 @@ This repository contains a collection of Bash scripts for automating various tas
 ## Contents
 
 - [OpenAI API](#openai-api)
-  - [linux-assistant.sh](#system-cpu-memory-usage-sh)
+ - [linux-assistant.sh](#system-cpu-memory-usage.sh)
 - [System](#system)
-  - [cpu-memory-usage.sh](#cpu-memory-usage-sh)
+ - [cpu-memory-usage.sh](#cpu-memory-usage.sh)
 
 
 ## OpenAI API
