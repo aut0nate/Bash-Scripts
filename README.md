@@ -65,9 +65,9 @@ This script displays the current CPU and memory usage in a simple and readable f
 **Usage:**
 
 1. Run the script:
-		```bash
+   ```bash
     ./system/cpu-memory-usage.sh
-    ```
+   ```
 2. Example output:
 > CPU Usage:
 15.7%
