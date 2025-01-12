@@ -6,8 +6,8 @@ This repository contains a collection of Bash scripts for automating various tas
 
 ## Contents
 
-[OpenAI API](#openai-api)
-[System](#system)
+- [OpenAI API](#openai-api)
+- [System](#system)
 
 
 ## OpenAI API
