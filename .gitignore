@@ -1,0 +1,5 @@
+# Ignore API response files
+openai-api/response.json
+
+# Ignore config files if added later
+openai-api/config.env
