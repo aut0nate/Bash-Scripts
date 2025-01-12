@@ -16,7 +16,7 @@ This repository contains a collection of Bash scripts for automating various tas
 
 ## Overview
 
-### **`openai-api/linux-assistant.sh`**
+### **`linux-assistant.sh`**
 This script allows users to interact with an AI-powered Linux assistant that can answer Linux-related questions, provide troubleshooting guidance, and generate example scripts.
 
 **Model Information:**
@@ -52,7 +52,7 @@ This script allows users to interact with an AI-powered Linux assistant that can
 
 ## Overview
 
-### **`system/cpu-memory-usage.sh`**
+### **`cpu-memory-usage.sh`**
 This script displays the current CPU and memory usage in a simple and readable format. It uses standard Linux utilities like top, grep, awk, and free to retrieve and format the system information.
 
 **Features:**
