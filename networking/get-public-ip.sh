@@ -1,2 +1,7 @@
 #!/bin/bash
-echo "Your public IP is: $(curl -s ifconfig.me)"
+ip=$(curl -s https://ifconfig.me)
+if [[ -z "$ip" ]]; then
+  echo "Failed to retrieve public IP."
+else
+  echo "Your public IP is: $ip"
+fi
