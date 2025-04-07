@@ -11,6 +11,8 @@ This repository contains a collection of Bash scripts for automating various tas
   - [linux-assistant.sh](#linux-assistantsh)
 - [System](#system)
   - [cpu-memory-usage.sh](#cpu-memory-usagesh)
+- [Network]
+  - [ip]
 
 ## OpenAI API
 
@@ -46,7 +48,7 @@ This script allows users to interact with an AI-powered Linux assistant that can
 2. Run the script:
 
    ```bash
-   ./openai-api/linux-assistant.sh
+   ./linux-assistant.sh
    ```
 
 3. Ask your Linux assistant a question.
@@ -67,7 +69,7 @@ This script displays the current CPU and memory usage in a simple and readable f
 1. Run the script:
 
    ```bash
-    ./system/cpu-memory-usage.sh
+    ./cpu-memory-usage.sh
    ```
 
 2. Example output:
@@ -76,6 +78,32 @@ This script displays the current CPU and memory usage in a simple and readable f
 15.7%
 Memory Usage:
 2.3G/8.0G
+
+## Network
+
+### **`public-ip-check.sh`**
+
+This script retrieves your system's public IP address and includes basic error handling to inform you if the IP cannot be retrieved.
+
+**Features:**
+
+- **Public IP Detection**: Queries `https://ifconfig.me` to determine your public IP address.
+- **Error Handling**: Gracefully handles situations where the IP cannot be retrieved (e.g. no internet connection).
+
+**Usage:**
+
+1. Run the script:
+
+   ```bash
+   ./network/public-ip-check.sh
+
+2. Example output (successful):
+
+> Your public IP is: 203.0.113.42
+
+Example output (failure):
+
+> Failed to retrieve public IP.
 
 ## How to Contribute
 
