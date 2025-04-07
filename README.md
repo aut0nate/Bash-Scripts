@@ -12,7 +12,7 @@ This repository contains a collection of Bash scripts for automating various tas
 - [System](#system)
   - [cpu-memory-usage.sh](#cpu-memory-usagesh)
 - [Network]
-  - [ip]
+  - [public-ip-check.sh](#public-ip-checksh)
 
 ## OpenAI API
 
@@ -95,7 +95,7 @@ This script retrieves your system's public IP address and includes basic error h
 1. Run the script:
 
    ```bash
-   ./network/public-ip-check.sh
+   ./public-ip-check.sh
 
 2. Example output (successful):
 
