@@ -11,7 +11,7 @@ This repository contains a collection of Bash scripts for automating various tas
   - [linux-assistant.sh](#linux-assistantsh)
 - [System](#system)
   - [cpu-memory-usage.sh](#cpu-memory-usagesh)
-- [Network]
+- [Network](#network)
   - [public-ip-check.sh](#public-ip-checksh)
 
 ## OpenAI API
