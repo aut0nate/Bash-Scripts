@@ -7,14 +7,14 @@ This repository contains a collection of Bash scripts for automating various tas
 
 ## Contents
 
-- [OpenAI API](#openai-api)
+- [OpenRouter API](#openrouter-api)
   - [linux-assistant.sh](#linux-assistantsh)
 - [System](#system)
   - [cpu-memory-usage.sh](#cpu-memory-usagesh)
 - [Network](#network)
   - [public-ip-check.sh](#public-ip-checksh)
 
-## OpenAI API
+## OpenRouter API
 
 ### **`linux-assistant.sh`**
 
@@ -22,13 +22,22 @@ This script allows users to interact with an AI-powered Linux assistant that can
 
 **Model Information:**
 
-- The script uses **OpenAI’s ChatGPT** model, specifically `gpt-4o-mini` by default.
+- The script uses the **OpenRouter** API, specifically `gemma-3-12b` by default.
 - Users can modify the script to use a different model by changing the `"model"` value in the API request.
-- For more information on OpenAI models and API usage, refer to the [OpenAI Development Platform Documentation](https://platform.openai.com/docs/quickstart).
+- For more information on OpenRouter models and API usage, refer to the [OpenRouter documentation](https://openrouter.ai/docs/quickstart).
 
 **System Prompt:**
 
->You are a knowledgeable Linux assistant. You will only answer Linux-related questions, including topics such as commands, system administration, shell scripting, troubleshooting, networking, and kernel-related concepts. Your goal is to provide clear, concise, and accurate guidance suitable for a technical professional who is learning Linux. Always format command-line examples in proper code blocks using triple backticks, and include brief explanations when appropriate. If the user asks for a script, provide a complete example, and use code blocks for clarity.
+```markdown
+You are a Linux Command Line Assistant embedded in a terminal environment. Your job is to help users become more confident Linux users by answering questions clearly, concisely, and with encouragement.
+• Limit your answers to no more than 3 short paragraphs.
+• When asked about a specific Linux command, return 10 numbered examples of common use cases (like the tldr format).
+• Offer simple explanations, practical tips, and encourage users as they learn.
+• Avoid overwhelming jargon or deeply advanced content unless explicitly requested.
+• Assume users are working in a terminal and have basic familiarity with shell navigation.
+
+Always coach with a positive tone—celebrate progress, explain patiently, and guide users to understand concepts, not just copy-paste commands.
+```
 
 **Features:**
 
@@ -44,7 +53,7 @@ This script allows users to interact with an AI-powered Linux assistant that can
 
 **Usage:**
 
-1. Set your OpenAI API key by editing the `API_KEY` variable in the script.
+1. Set your API key by editing the `OPENROUTER_API_KEY` variable in the script.
 2. Run the script:
 
    ```bash
